@@ -8,8 +8,8 @@ class MyClient(discord.Client):
     async def on_message(self, message):
         #if message.author == client.user:
         #    return
-        channel = client.get_channel(752051281950015570)
-        if message.author.id == 270904126974590976 and message.channel.id == 752051281950015570:
+        channel = client.get_channel(920919862275088389)
+        if message.author.id == 950760806558105620 and message.channel.id == 920919862275088389:
             #print("Message from {0.author}: {0.content}".format(message))
             message.content = message.content.replace('﻿','')
             if "god forbid" in message.content:
