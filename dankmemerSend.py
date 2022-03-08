@@ -24,5 +24,5 @@ async def on_connect():
         await channel.send("pls dep all")
         time.sleep(15)
             
-token = os.getenv('DISCORD_BOT_TOKEN')
+token = os.getenv('OTUwNzYwODA2NTU4MTA1NjIw.Yidncw.ZhBsOydzRX4PSjl-cC9Ik3ZgVw0')
 client.run(token, bot = False)
